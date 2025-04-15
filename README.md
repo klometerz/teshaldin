@@ -34,6 +34,7 @@ Author: **M Kahfi Kresnotutuko**
 ## 🗃️ Struktur Folder Utama
 
 
+
 ---
 
 ## 🧾 Struktur Database
@@ -61,7 +62,6 @@ Author: **M Kahfi Kresnotutuko**
 | created_at   | TIMESTAMP |
 
 
-
 ---
 
 ## 🧩 Alur Keranjang & Checkout
@@ -74,4 +74,4 @@ flowchart TD
   D --> E[Ubah Qty / Hapus]
   E --> F[Checkout]
   F --> G[Simpan ke Tabel transactions + items]
-[https://teshaldin.up.railway.app](https://teshaldin-production.up.railway.app/)
+https://teshaldin-production.up.railway.app/
