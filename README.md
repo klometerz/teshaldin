@@ -60,17 +60,7 @@ Author: **M Kahfi Kresnotutuko**
 | total_price  | DECIMAL   |
 | created_at   | TIMESTAMP |
 
----
 
-### 🧾 `transaction_items`
-
-| Field           | Tipe    |
-|------------------|--------|
-| id               | BIGINT |
-| transaction_id   | FK     |
-| product_id       | FK     |
-| quantity         | INT    |
-| subtotal         | DECIMAL|
 
 ---
 
@@ -84,4 +74,4 @@ flowchart TD
   D --> E[Ubah Qty / Hapus]
   E --> F[Checkout]
   F --> G[Simpan ke Tabel transactions + items]
-https://teshaldin.up.railway.app
+[https://teshaldin.up.railway.app](https://teshaldin-production.up.railway.app/)
